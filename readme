@@ -1,0 +1,3 @@
+gcc -fPIC -shared myclass.cpp -o myclass.so
+
+gcc main.cpp -ldl -o myexe
