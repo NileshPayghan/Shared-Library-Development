@@ -1,0 +1,8 @@
+command too create .so file:
+        g++ -fPIC -shared library.cpp -o library.so
+
+command t create executable for client program
+        g++ user.cpp -ldl -o user
+
+after executing this command use executable : ./user
+                                                                                                                                               
